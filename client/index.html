@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Bit Of Bytes</title>
+    <script src="../script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="page-container">
+        <img id="background" src="./assets/images/UCR_Belltower.jpg">
+        <div id="ui-container">
+            <h1>A Bit<br>Of Bytes</h1>
+            <div id="audio-controls">
+                <div for="chatter-controls">
+                    <div>
+                        <input type="image" src="./assets/images/icons8-play-24.png" height="18px"></input>
+                        <label for="chatter">Chatter</label>
+                    </div>
+                    <div class="slider-container">
+                        &emsp;<a><img src="./assets/images/icons8-speaker-24.png" height="18px"></a>
+                        <input type="range" min="0" max="1.5", value="1" step=".01" class="slider volume">
+                    </div>
+                    <div class="slider-container">
+                        &emsp;<label>L</label>
+                        <input type="range" min="-1" max="1", value="0" step=".05" class="slider stereo">
+                        <label>R</label>
+                    </div>
+                    <audio id="chatter_audio" src="./assets/sounds/chatter.mp3"></audio>
+                </div>
+                <div for="barista-controls">
+                    <div>
+                        <input type="image" src="./assets/images/icons8-play-24.png" height="18px"></input>
+                        <label for="chatter">Barista</label>
+                    </div>
+                    <div class="slider-container">
+                        &emsp;<a><img src="./assets/images/icons8-speaker-24.png" height="18px"></a>
+                        <input type="range" min="0" max="1.5", value="1" step=".01" class="slider volume">
+                    </div>
+                    <div class="slider-container">
+                        &emsp;<label>L</label>
+                        <input type="range" min="-1" max="1", value="0" step=".05" class="slider stereo">
+                        <label>R</label>
+                    </div>
+                    <audio id="barista_audio" src="./assets/sounds/coffeemaking.mp3"></audio>
+                </div>
+                <div for="rainy-day-controls">
+                    <div>
+                        <input type="image" src="./assets/images/icons8-play-24.png" height="18px"></input>
+                        <label for="chatter">Rainy Day</label>
+                    </div>
+                    <div class="slider-container">
+                        &emsp;<a><img src="./assets/images/icons8-speaker-24.png" height="18px"></a>
+                        <input type="range" min="0" max="1.5", value="1" step=".01" class="slider volume">
+                    </div>
+                    <div class="slider-container">
+                        &emsp;<label>L</label>
+                        <input type="range" min="-1" max="1", value="0" step=".05" class="slider stereo">
+                        <label>R</label>
+                    </div>
+                    <audio id="rainy_audio" src="./assets/sounds/rainy-weather.mp3"></audio>
+                </div>
+                <div for="spring-controls">
+                    <div>
+                        <input type="image" src="./assets/images/icons8-play-24.png" height="18px"></input>
+                        <label for="chatter">Post Rain</label>
+                    </div>
+                    <div class="slider-container">
+                        &emsp;<a><img src="./assets/images/icons8-speaker-24.png" height="18px"></a>
+                        <input type="range" min="0" max="1.5", value="1" step=".01" class="slider volume">
+                    </div>
+                    <div class="slider-container">
+                        &emsp;<label>L</label>
+                        <input type="range" min="-1" max="1", value="0" step=".05" class="slider stereo">
+                        <label>R</label>
+                    </div>
+                    <audio id="spring_audio" src="./assets/sounds/spring-weather.mp3"></audio>
+                </div>
+                <div for="sunny-day-controls">
+                    <div>
+                        <input type="image" src="./assets/images/icons8-play-24.png" height="18px"></input>
+                        <label for="chatter">Sunny Day</label>
+                    </div>
+                    <div class="slider-container">
+                        &emsp;<a><img src="./assets/images/icons8-speaker-24.png" height="18px"></a>
+                        <input type="range" min="0" max="1.5", value="1" step=".01" class="slider volume">
+                    </div>
+                    <div class="slider-container">
+                        &emsp;<label>L</label>
+                        <input type="range" min="-1" max="1", value="0" step=".05" class="slider stereo">
+                        <label>R</label>
+                    </div>
+                    <audio id="sunny_audio" src="./assets/sounds/sunny-weather.mp3"></audio>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
