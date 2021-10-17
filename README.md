@@ -4,9 +4,13 @@
 
 A Bit Of Bytes is an homage to a cafe at my alma mater (University of California, Riverside) called Bytes, where my friends and I often visited to study and pass time between classes. I drew inspiration for A Bit Of Bytes from [I Miss My Cafe](https://imissmycafe.com), which recreates sounds one might hear at a coffeeshop for a burst of nostalgia during the COVID-19 quarantine.
 
+The site is hosted [here](https://eager-borg-557cc6.netlify.app) by Netlify!
+
 ## Overview
 
 A Bit Of Bytes is a single-page web application that provides users with select audio samples (which were hand-picked and edited) meant to mock the background noises of a coffee shop to aid listeners' relaxation or productivity by providing a collection of 'white noise' alternatives over upbeat or lyrical songs that can often be distracting.
+
+A Bit Of Bytes is built with NodeJS/Express for route-handling on the backend, and vanilla Javascript with HTML/CSS for the frontend.
 
 ## How I Built It
 
