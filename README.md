@@ -18,7 +18,7 @@ All the audio files used in A Bit Of Bytes were downloaded from [Sound Jay](http
 
 ### Volume and Stereo Sound Sliders
 
-The volume and stereo sliders accompanying each audio file were created using the GainNode and StereoPannerNode interfaces provided by the Web Audio API. The GainNode interface has a gain property that adjusts the volume of an audio context with 0 being muted, 1 being the default volume, and anything beyond 1 being scaled logarithmically (decibel scaling). The StereoPannerNode adjusts the volume level on each output channel (left and right stereo audio channels) to mimic a change in the audio's directionality with -1 being full left audio, 0 being equally balanced, and 1 being full right audio.
+The volume and stereo sliders accompanying each audio file were created using the GainNode and StereoPannerNode interfaces provided by the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API). The GainNode interface has a gain property that adjusts the volume of an audio context with 0 being muted, 1 being the default volume, and anything beyond 1 being scaled logarithmically (decibel scaling). The StereoPannerNode adjusts the volume level on each output channel (left and right stereo audio channels) to mimic a change in the audio's directionality with -1 being full left audio, 0 being equally balanced, and 1 being full right audio.
 
 ## Future Development
 
