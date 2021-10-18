@@ -1,7 +1,7 @@
 {
   "name": "abitofbytesnodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "![ABitOfBytes Sample Image](media/ABitOfBytesSample.jpg)",
   "main": "index.js",
   "scripts": {
     "ndmn": "nodemon app.js",
