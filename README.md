@@ -4,7 +4,7 @@
 
 A Bit Of Bytes is an homage to a cafe at my alma mater (University of California, Riverside) called Bytes, where my friends and I often visited to study and pass time between classes. I drew inspiration for A Bit Of Bytes from [I Miss My Cafe](https://imissmycafe.com), which recreates sounds one might hear at a coffeeshop for a burst of nostalgia during the COVID-19 quarantine.
 
-The site is hosted [here](https://eager-borg-557cc6.netlify.app) by Netlify!
+The site is hosted [here](https://abitofbytes.herokuapp.com/) using Heroku!
 
 ## Overview
 
